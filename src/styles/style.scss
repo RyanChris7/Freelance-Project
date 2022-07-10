@@ -1,0 +1,244 @@
+@import "./custom";
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:wght@400;500;700&family=Playfair+Display+SC:wght@400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navigation-bar {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+  .nav-logo {
+    margin-top: 10px;
+    padding-left: 30px;
+  }
+
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 70px;
+    list-style: none;
+    list-style-type: none;
+    justify-content: end;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-left: 6rem;
+  }
+
+  .nav-menu li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+  }
+
+  .nav-menu li a:hover {
+    color: #ff8159;
+    font-weight: 500;
+  }
+
+  .horizontal-line {
+    border: 2px solid #000000;
+    background-color: #000000;
+    width: 280px;
+    height: 0px;
+    margin-top: 3.25rem;
+    margin-right: 50px;
+  }
+}
+
+// ========== FOOTER ========== //
+
+.footer {
+  width: 100%;
+  background-color: #2d2a35;
+  color: #ffffff;
+  font-family: "DM Sans";
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  padding-top: 40px;
+}
+
+.footer-location h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  margin-top: 20px;
+}
+
+.footer-column2 h5,
+.footer-column3 h5 {
+  padding-top: 45px;
+  padding-bottom: 10px;
+  font-size: 26px;
+  line-height: 42px;
+}
+
+.footer-list li {
+  margin-left: -2rem;
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+  padding-top: 1rem;
+  font-size: 16px;
+}
+
+.footer-list li:hover {
+  color: #ff8159;
+}
+
+.socials {
+  margin-top: 15px;
+  display: flex;
+}
+
+.ellipse {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  margin-right: 15px;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #303030;
+  font-family: "Crimson Text";
+  font-size: 18px;
+  line-height: 26px;
+  color: #b4b4b4;
+}
+
+.copyright p {
+  margin-bottom: 0 !important;
+}
+
+// ========== HOME PAGE ========== //
+
+.vertical-line {
+  position: relative;
+  top: 280px;
+  left: -110px;
+  width: 425px;
+  height: 0;
+  background-color: #000000;
+  border: 2px solid #000000;
+  transform: rotate(-90deg);
+}
+
+.maincontent1 {
+  .landing-content {
+    margin-left: 7rem;
+  }
+
+  h1 {
+    font-family: "Playfair Display SC";
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 60px;
+    margin-top: 2rem;
+  }
+
+  h1 span {
+    font-size: 55px;
+  }
+
+  p {
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 2.5rem;
+  }
+
+  .landing-button {
+    .button-1 {
+      background-color: #ffffff;
+      padding: 7px 22px;
+      font-family: "Crimson Text";
+      font-size: 22px;
+      line-height: 31px;
+      border: 2px solid #000000;
+      border-radius: 3px;
+    }
+
+    .button-2 {
+      background: #3d3d3d;
+      border-radius: 3px;
+      color: #ffffff;
+      font-family: "Crimson Text";
+      font-size: 22px;
+      line-height: 31px;
+      text-align: center;
+      margin-left: 2rem;
+      padding: 7px 22px;
+    }
+
+    .button-2:hover {
+      background-color: #ff8159;
+      color: #000000;
+      border: 2px solid #ff8159;
+    }
+  }
+}
+
+.About-Container {
+  margin-top: 8rem;
+
+  .about-us {
+    margin-top: 5rem;
+  }
+
+  .about-us h1 {
+    font-family: "Playfair Display SC";
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 2px;
+  }
+
+  .about-us h3 {
+    font-family: "Crimson Text";
+    font-weight: 600;
+    font-size: 28px;
+  }
+
+  .about-us p {
+    font-family: "Crimson Text";
+    font-weight: 400;
+    line-height: 25px;
+    color: #606060;
+  }
+
+  .button-3 {
+    background: #ff8159;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 7px 45px;
+    border: none;
+    color: #ffffff;
+    font-family: "Crimson Text";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .button-3:hover {
+    transform: scale(1.1);
+  }
+}
