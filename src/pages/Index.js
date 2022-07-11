@@ -74,9 +74,28 @@ function Home() {
         </Row>
       </Container>
 
-      {/* <Container className="achievement mt-5 text-center">
-        Acheivement
-      </Container> */}
+      <div className="achievement">
+        <Container className="mt-5 text-center">
+          {/* <div className="achievement-text pt-5">
+            <h1>Goal and Purposes</h1>
+            <p className="pt-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.
+              Lorem ipsum dolor sit amet
+              <br />, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud
+            </p>
+          </div> */}
+          <Row className="pt-5">
+            <Col>Tes</Col>
+            <Col>tes</Col>
+            <Col>tes</Col>
+          </Row>
+        </Container>
+      </div>
 
       <Footer />
     </>
